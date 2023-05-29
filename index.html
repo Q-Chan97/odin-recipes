@@ -6,16 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sweet Recipe Site</title>
     <meta name="description" content="A brand new recipe site awaits you.">
-    <link rel="stylesheet" type="text/css" href="recipe-styles.css">
+    <link rel="stylesheet" type="text/css" href="recipes/recipe-styles.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/05/15/16/guy-fieri-rf-getty.jpg?width=1200">
-    <ul>
-        <li><a href="recipes/juicy-burger.html">Here's a juicy burger recipe!</a></li>
-        <li><a href="recipes/cookie.html">Try this recipe for cookies!</a></li>
-        <li><a href="recipes/fruit-bar.html">Fruit bars for summer!</a></li>
-    </ul>
-    
+    <div id="pageHead">
+        <h1>Odin Recipes</h1>
+    </div>
+    <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/05/15/16/guy-fieri-rf-getty.jpg?width=1200" class="welcomeImg">
+    <div id="indexList">
+      <ul>
+          <li class="changeBackground"><a href="recipes/juicy-burger.html">Here's a juicy burger recipe!</a></li>
+          <li class="changeBackground"><a href="recipes/cookie.html">Try this recipe for cookies!</a></li>
+          <li class="changeBackground"><a href="recipes/fruit-bar.html">Fruit bars for summer!</a></li>
+      </ul>
+    </div>
+    <div id="emptyFooter">
+    </div>
 </body>
 </html>
